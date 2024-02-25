@@ -1,0 +1,72 @@
+[
+    {
+        "id": "S1",
+        "name": "HTML",
+        "logoImage": "logoHTML.png"
+    },
+    {
+        "id": "S2",
+        "name": "CSS",
+        "logoImage": ""
+    },
+    {
+        "id": "S3",
+        "name": " JavaScript",
+        "logoImage": ""
+    },
+    {
+        "id": "S4",
+        "name": "React",
+        "logoImage": ""
+    },
+    {
+        "id": "S5",
+        "name": "Node.js",
+        "logoImage": ""
+    },
+    {
+        "id": "S6",
+        "name": "MongoDB ",
+        "logoImage": ""
+    },
+    {
+        "id": "S7",
+        "name": "Express.js",
+        "logoImage": ""
+    },
+    {
+        "id": "S8",
+        "name": "Bootstrap",
+        "logoImage": ""
+    },
+    {
+        "id": "S9",
+        "name": "Postman",
+        "logoImage": ""
+    },
+    {
+        "id": "S10",
+        "name": "MySQL",
+        "logoImage": ""
+    },
+    {
+        "id": "S11",
+        "name": "Docker",
+        "logoImage": ""
+    },
+    {
+        "id": "S12",
+        "name": "Terraform",
+        "logoImage": ""
+    },
+    {
+        "id": "S13",
+        "name": "Kubernetes",
+        "logoImage": ""
+    },
+    {
+        "id": "S14",
+        "name": "Azure",
+        "logoImage": ""
+    }
+]

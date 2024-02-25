@@ -1,0 +1,42 @@
+[
+    {
+        "id": "P1",
+        "title": "Flor is lava",
+        "description": "Descripción del proyecto 1",
+        "desktop image": "imagen1.jpg",
+        "tablet image": "",
+        "movile image": ""
+    },
+    {
+        "id": "P2",
+        "title": "BoardMaster",
+        "description": "Descripción del proyecto 2",
+        "desktop image": "imagen1.jpg",
+        "tablet image": "",
+        "movile image": ""
+    },
+    {
+        "id": "P3",
+        "title": "JamLink",
+        "description": "Descripción del proyecto 3",
+        "desktop image": "imagen1.jpg",
+        "tablet image": "",
+        "movile image": ""
+    },
+    {
+        "id": "P4",
+        "title": "HappyCode",
+        "description": "Descripción del proyecto 2",
+        "desktop image": "imagen1.jpg",
+        "tablet image": "",
+        "movile image": ""
+    },
+    {
+        "id": "P5",
+        "title": "Eloy Arts",
+        "description": "Descripción del proyecto 2",
+        "desktop image": "imagen1.jpg",
+        "tablet image": "",
+        "movile image": ""
+    }
+]
