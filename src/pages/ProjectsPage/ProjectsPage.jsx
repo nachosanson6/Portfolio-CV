@@ -1,18 +1,16 @@
 import React from "react"
-import Skills from "../../components/Skills/Skills"
 import "./ProjectsPage.css"
-
+import projectsData from "./../../jsons/projects.json"
 
 
 const ProjectsPage = () => {
     return (
         <div className="projectsPage">
-            {/* {proyectsData.map(project => (
+            {projectsData.map(project => (
                 <div key={project.id}>
                     <h2>{project.id} {project.title}</h2>
                 </div>
-            ))} */}
-            <Skills />
+            ))}
         </div>
     )
 }
