@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./Navigation.css"
 
 const Navigation = () => {
@@ -9,9 +10,9 @@ const Navigation = () => {
                         <img src="/assets/images/logo.png" width="80.382px" height="70px" alt="Logo" />
                     </div>
                     <div class="navbar-links">
-                        <a href="#home">Home</a>
-                        <a href="#projects">Projects</a>
-                        <a href="#aboutMe">About</a>
+                        <Link to={"/"}>Home</Link>
+                        <Link to={"/projects"}>Projects</Link>
+                        <Link to={"/about"}>About</Link>
                     </div>
                 </div>
                 <div className="options">
