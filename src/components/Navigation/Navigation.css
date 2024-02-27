@@ -7,12 +7,23 @@
     font-weight: 700;
     line-height: normal;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
 }
 
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: white;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler-icon {
     color: white;
 }
 
@@ -23,7 +34,7 @@
 
 .options {
     display: flex;
-    align-items: center
+    align-items: flex-start
 }
 
 .navbar a {
@@ -64,22 +75,4 @@
     font-weight: bold;
     box-shadow: 1px 0px 21px 0px #3D73EB;
     cursor: pointer;
-}
-
-.navbar-contact button:hover {
-    background: linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%);
-}
-
-/* Estilos para dispositivos pequeños */
-@media screen and (max-width: 700px) {
-    .navbar-options {
-        display: none;
-    }
-}
-
-/* Estilos para el botón de toggle en dispositivos pequeños */
-@media screen and (min-width: 700px) {
-    .navbar-toggle {
-        display: none;
-    }
 }
