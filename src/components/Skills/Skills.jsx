@@ -4,12 +4,15 @@ import "./Skills.css"
 const Skills = () => {
     return (
         <div className="skills">
-            {skillsData.map(skill => (
-                <div key={skill.id}>
-                    <h2>{skill.name}</h2>
-                    <img src={`/assets/${skill.logoImage}`} alt={skill.name} />
-                </div>
-            ))}
+            <h2>My Skills</h2>
+            <div className="skillsCards">
+                {skillsData.map(skill => (
+                    <div className="skillsCard" key={skill.id}>
+                        <img className="skillsImages" src={`/assets/images/${skill.logoImage}`} alt={skill.name} />
+                        <h3>{skill.name}</h3>
+                    </div>
+                ))}
+            </div>
         </div>
     )
 }

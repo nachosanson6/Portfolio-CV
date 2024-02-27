@@ -1,0 +1,85 @@
+.navigation {
+    background-color: transparent;
+    color: #DADADA !important;
+    font-family: Epilogue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.links {
+    display: flex;
+    align-items: center
+}
+
+.options {
+    display: flex;
+    align-items: center
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar-brand img {
+    width: 80.382px;
+    height: 70px;
+}
+
+.navbar-social img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logoGithub {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.navbar-language button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.navbar-contact button {
+    background: linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 1px 0px 21px 0px #3D73EB;
+    cursor: pointer;
+}
+
+.navbar-contact button:hover {
+    background: linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%);
+}
+
+/* Estilos para dispositivos pequeños */
+@media screen and (max-width: 700px) {
+    .navbar-options {
+        display: none;
+    }
+}
+
+/* Estilos para el botón de toggle en dispositivos pequeños */
+@media screen and (min-width: 700px) {
+    .navbar-toggle {
+        display: none;
+    }
+}

@@ -7,66 +7,71 @@
     {
         "id": "S2",
         "name": "CSS",
-        "logoImage": ""
+        "logoImage": "logoCSS.png"
     },
     {
         "id": "S3",
         "name": " JavaScript",
-        "logoImage": ""
+        "logoImage": "logoJS.png"
     },
     {
         "id": "S4",
         "name": "React",
-        "logoImage": ""
+        "logoImage": "logoREACT.png"
     },
     {
         "id": "S5",
         "name": "Node.js",
-        "logoImage": ""
+        "logoImage": "logoNODE.png"
     },
     {
         "id": "S6",
         "name": "MongoDB ",
-        "logoImage": ""
+        "logoImage": "logoMONGODB.png"
     },
     {
         "id": "S7",
         "name": "Express.js",
-        "logoImage": ""
+        "logoImage": "logoEXPRESS.png"
     },
     {
         "id": "S8",
         "name": "Bootstrap",
-        "logoImage": ""
+        "logoImage": "logoBOOTSTRAP.png"
     },
     {
         "id": "S9",
         "name": "Postman",
-        "logoImage": ""
+        "logoImage": "logoPOSTMAN.png"
     },
     {
         "id": "S10",
         "name": "MySQL",
-        "logoImage": ""
+        "logoImage": "logoMYSQL.png"
     },
     {
         "id": "S11",
         "name": "Docker",
-        "logoImage": ""
+        "logoImage": "logoDOCKER.png"
     },
     {
         "id": "S12",
         "name": "Terraform",
-        "logoImage": ""
+        "logoImage": "logoTERRAFORM.png"
     },
     {
         "id": "S13",
         "name": "Kubernetes",
-        "logoImage": ""
+        "logoImage": "logoKUBERNETES.png"
     },
     {
         "id": "S14",
         "name": "Azure",
-        "logoImage": ""
+        "logoImage": "logoAZURE.png"
+    },
+    {
+        "id": "S15",
+        "name": "Github",
+        "logoImage": "logoGITHUB.png"
     }
 ]

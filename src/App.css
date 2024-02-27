@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    background-image: url('/assets/images/BACKGROUND IMAGE.png');
+    background-size: cover;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#root {
+    padding: 0;
+}
+
+.content {
+    padding: 0 7.5rem;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .content {
+        padding: 0 5rem;
+    }
+}
+
+/*Movil */
+@media (max-width: 480px) {
+    .content {
+        padding: 0 1.5rem;
+    }
+}

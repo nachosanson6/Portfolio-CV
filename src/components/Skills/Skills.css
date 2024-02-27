@@ -1,5 +1,71 @@
 .skills {
-    width: 100%;
+    width: 60%;
     display: flex;
+    flex-direction: column;
+}
 
+.skillsCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.skillsCard {
+
+    background-color: rgb(222, 221, 226);
+    border-radius: 30px;
+
+}
+
+.skillsImages {
+    height: 100px;
+    padding-top: 30px;
+}
+
+.skills h2 {
+    color: white;
+    font-family: Epilogue;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 101px;
+    letter-spacing: 0.53em;
+    text-align: center;
+
+}
+
+.skills h3 {
+    color: black;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .skillsCards {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .skills h2 {
+        font-size: 45px;
+        font-weight: 600;
+        letter-spacing: 0.15em;
+
+    }
+}
+
+/*Movil */
+@media (max-width: 480px) {
+    .skillsCards {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .skills h2 {
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 0.15em;
+
+    }
 }
