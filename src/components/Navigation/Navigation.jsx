@@ -1,29 +1,25 @@
-import { Link } from "react-router-dom"
-import "./Navigation.css"
-import { Navbar } from "react-bootstrap"
+import { Link } from "react-router-dom";
+import "./Navigation.css";
+import { Navbar, Nav } from "react-bootstrap";
 
 const Navigation = () => {
     return (
         <Navbar expand="lg">
-            <div class="navigation">
-
+            <div className="navigation">
                 <div className="links">
-                    <div class="navbar-brand">
+                    <div className="navbar-brand">
                         <img src="/assets/images/logo.png" width="80.382px" height="70px" alt="Logo" />
                     </div>
 
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <div class="navbar-links">
-                            <Link to={"/"}>Home</Link>
-                            <Link to={"/projects"}>Projects</Link>
-                            <Link to={"/about"}>About</Link>
-                        </div>
-                    </Navbar.Collapse>
                 </div>
-                <div className="options">
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <div class="navbar-social">
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <div className="options">
+                        <Nav className="mr-auto">
+                            <Link to={"/"} className="nav-link">Home</Link>
+                            <Link to={"/projects"} className="nav-link">Projects</Link>
+                            <Link to={"/about"} className="nav-link">About</Link>
+                        </Nav>
+                        <div className="navbar-social">
                             <a href="https://github.com/nachosanson6" target="_blank" rel="noopener noreferrer">
                                 <img className="logoGithub" src="/assets/images/logoGITHUB.png" alt="GitHub" />
                             </a>
@@ -31,21 +27,23 @@ const Navigation = () => {
                                 <img src="/assets/images/logoLINKEDIN.png" alt="LinkedIn" />
                             </a>
                         </div>
-                        <div class="navbar-language">
-                            <button onclick="toggleLanguage()">
-                                {/* <img src={language === 'english' ? spanish : english} alt="Language" /> */}
-                            </button>
+                        <div className="navbar-language">
+                            {/* <button onClick={toggleLanguage}>
+                            <img src={language === 'english' ? spanish : english} alt="Language" />
+                            Aquí necesitas manejar la lógica para cambiar de idioma
+                        </button> */}
                         </div>
-                        <div class="navbar-contact">
+                        <div className="navbar-contact">
                             <a href="#contact">
                                 <button>Contact</button>
                             </a>
                         </div>
-                    </Navbar.Collapse>
-                </div>
-
+                    </div>
+                </Navbar.Collapse>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" gb="light" className="custom-toggler" />
             </div>
         </Navbar>
-    )
-}
-export default Navigation
+    );
+};
+
+export default Navigation;

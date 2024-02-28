@@ -23,9 +23,12 @@
     justify-content: flex-end;
 }
 
-.navbar-toggler-icon {
-    color: white;
+
+
+.navbar-toggler {
+    background-color: white !important;
 }
+
 
 .links {
     display: flex;
@@ -75,4 +78,39 @@
     font-weight: bold;
     box-shadow: 1px 0px 21px 0px #3D73EB;
     cursor: pointer;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+
+    .navigation {
+        align-items: baseline
+    }
+
+    .navbar-collapse {
+        display: flex;
+        flex-direction: row;
+        padding-top: 1rem;
+    }
+}
+
+/*Movil */
+@media (max-width: 480px) {
+
+    .navigation {
+        align-items: flex-start;
+    }
+
+    .navbar-toggler {
+        margin-top: 1rem;
+    }
+
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-contact {
+        padding-top: 1rem;
+    }
 }
