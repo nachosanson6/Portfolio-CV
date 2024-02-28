@@ -56,8 +56,6 @@
         flex-direction: column;
     }
 
-    .homePage button {}
-
     .desktop-tablet-button {
         display: none;
         /* Oculta el botón para escritorio y tablet */
