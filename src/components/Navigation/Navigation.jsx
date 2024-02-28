@@ -13,12 +13,14 @@ const Navigation = () => {
 
                 </div>
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <div className="options">
+                    <div className="pages">
                         <Nav className="mr-auto">
-                            <Link to={"/"} className="nav-link">Home</Link>
-                            <Link to={"/projects"} className="nav-link">Projects</Link>
-                            <Link to={"/about"} className="nav-link">About</Link>
+                            <Link to={"/"} className="nav-link" activeClassName="active">Home</Link>
+                            <Link to={"/projects"} className="nav-link" activeClassName="active">Projects</Link>
+                            <Link to={"/about"} className="nav-link" activeClassName="active">About</Link>
                         </Nav>
+                    </div>
+                    <div className="options">
                         <div className="navbar-social">
                             <a href="https://github.com/nachosanson6" target="_blank" rel="noopener noreferrer">
                                 <img className="logoGithub" src="/assets/images/logoGITHUB.png" alt="GitHub" />
