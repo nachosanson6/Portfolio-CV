@@ -1,0 +1,37 @@
+.homePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.homePage h1 {
+    background-image: linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%);
+    -webkit-background-clip: text;
+    color: transparent !important;
+}
+
+.homePage h2 {
+    color: white;
+}
+
+.homePage img {
+    max-width: 100vw;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .homePage {
+        flex-direction: column;
+        align-items: stretch;
+
+    }
+
+}
+
+/*Movil */
+@media (max-width: 480px) {
+    .homePage {
+        flex-direction: column;
+    }
+}
