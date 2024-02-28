@@ -19,6 +19,24 @@
     max-width: 100vw;
 }
 
+.homePage button {
+    box-shadow: 1px 0px 21px 0px #3D73EB;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background: linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%);
+    border-radius: 1.5625rem
+}
+
+.desktop-tablet-button {
+    display: block;
+    /* Asegura que el botón esté en una línea separada */
+}
+
+.mobile-button {
+    display: none;
+    /* Oculta el botón para dispositivos móviles inicialmente */
+}
+
 /* Tablet */
 @media (max-width: 768px) {
     .homePage {
@@ -27,11 +45,26 @@
 
     }
 
+
+
+
 }
 
 /*Movil */
 @media (max-width: 480px) {
     .homePage {
         flex-direction: column;
+    }
+
+    .homePage button {}
+
+    .desktop-tablet-button {
+        display: none;
+        /* Oculta el botón para escritorio y tablet */
+    }
+
+    .mobile-button {
+        display: block;
+        /* Muestra el botón para dispositivos móviles */
     }
 }
