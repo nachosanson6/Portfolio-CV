@@ -73,5 +73,10 @@
         "id": "S15",
         "name": "Github",
         "logoImage": "logoGITHUB.png"
+    },
+    {
+        "id": "s16",
+        "name": "SASS",
+        "logoImage": "logoSASS.png"
     }
 ]

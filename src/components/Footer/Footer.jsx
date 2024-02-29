@@ -1,7 +1,4 @@
 import "./Footer.css"
-import envelope from "/assets/images/envelope-alt.svg"
-import phone from "/assets/images/phone.svg"
-import logo from "/assets/images/logo.png"
 
 const Footer = () => {
 
@@ -10,14 +7,14 @@ const Footer = () => {
             <div className="footerComponent">
                 <div className="information">
                     <div className="info-item logo">
-                        <img src={logo} alt="Logo" />
+                        <img src={"/src/assets/images/logo.png"} alt="Logo" />
                     </div>
                     <div className="info-item">
-                        <img className="phone" src={phone} alt="Phone" />
+                        <img className="phone" src={"/src/assets/images/phone.svg"} alt="Phone" />
                         <p className="contact-info">675239429</p>
                     </div>
                     <div className="info-item envelope">
-                        <img className="envelope" src={envelope} alt="Envelope" />
+                        <img className="envelope" src={"/src/assets/images/envelope-alt.svg"} alt="Envelope" />
                         <p className="contact-info">nachosanson6@gmail.com</p>
                     </div>
                 </div>

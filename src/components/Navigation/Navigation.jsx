@@ -20,7 +20,7 @@ const Navigation = () => {
             <div className="navigation">
                 <div className="links">
                     <div className="navbar-brand">
-                        <img src="/assets/images/logo.png" width="80.382px" height="70px" alt="Logo" />
+                        <img src="/src/assets/images/logo.png" width="80.382px" height="70px" alt="Logo" />
                     </div>
 
                 </div>
@@ -35,10 +35,10 @@ const Navigation = () => {
                     <div className="options">
                         <div className="navbar-social">
                             <a href="https://github.com/nachosanson6" target="_blank" rel="noopener noreferrer">
-                                <img className="logoGithub" src="/assets/images/logoGITHUB.png" alt="GitHub" />
+                                <img className="logoGithub" src="/src/assets/images/logoGITHUB.png" alt="GitHub" />
                             </a>
                             <a href="https://www.linkedin.com/in/ignacio-sanson/" target="_blank" rel="noopener noreferrer">
-                                <img src="/assets/images/logoLINKEDIN.png" alt="LinkedIn" />
+                                <img src="/src/assets/images/logoLINKEDIN.png" alt="LinkedIn" />
                             </a>
                         </div>
                         <div className="navbar-language">

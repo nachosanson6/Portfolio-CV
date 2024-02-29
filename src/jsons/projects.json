@@ -2,26 +2,48 @@
     {
         "id": "P1",
         "title": "Flor is lava",
-        "description": "Descripción del proyecto 1",
+        "description": "Este fue el primer proyecto completo que desarrollé durante el bootcamp. Junto a mi compañero Rodrigo, creamos este videojuego utilizando HTML, CSS, JavaScript y el DOM. Fue un esfuerzo en equipo en el que tuvimos que hacer lluvia de ideas, diseñar y construir el videojuego desde cero.",
         "desktop image": "imagen1.jpg",
         "tablet image": "",
-        "movile image": ""
+        "movile image": "",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JS"
+        ]
     },
     {
         "id": "P2",
         "title": "BoardMaster",
-        "description": "Descripción del proyecto 2",
+        "description": "Proyecto que desarrollé con mi compañera Isabella durante el segundo módulo del bootcamp. Es una aplicación para crear eventos para jugar juegos de mesa. Además, al crear un evento, puedes ver la ubicación del evento y todos los eventos previamente creados en un mapa a través de la API de Google Maps.También tienes acceso a una galería de todos los juegos de mesa que obtenemos de una API externa.",
         "desktop image": "imagen1.jpg",
         "tablet image": "",
-        "movile image": ""
+        "movile image": "",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JS",
+            "NODE",
+            "EXPRESS",
+            "BOOTSTRAP"
+        ]
     },
     {
         "id": "P3",
         "title": "JamLink",
-        "description": "Descripción del proyecto 3",
+        "description": "Último proyecto desarrollado durante el bootcamp.JamLink es una red social para músicos que desean conocer a otros músicos para tocar juntos y organizar jam sessions. En ella, puedes encontrar una comunidad de usuarios donde puedes conocer a nuevas personas, ver los instrumentos que tocan y agregarlos como amigos.También puedes crear eventos a los que otros usuarios pueden unirse, ver todos los eventos en un mapa de Google y dejar comentarios. Desarrollé la aplicación con mi compañero Fernando y como próximos pasos, nos gustaría implementar una sección donde los usuarios puedan agregar videos de las jam sessions y, incluso, un chat para facilitar la comunicación entre los usuarios de la aplicación.",
         "desktop image": "imagen1.jpg",
         "tablet image": "",
-        "movile image": ""
+        "movile image": "",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JS",
+            "REACT",
+            "NODE",
+            "EXPRESS",
+            "BOOTSTRAP"
+        ]
     },
     {
         "id": "P4",
@@ -29,7 +51,16 @@
         "description": "Descripción del proyecto 2",
         "desktop image": "imagen1.jpg",
         "tablet image": "",
-        "movile image": ""
+        "movile image": "",
+        "skills": [
+            "HTML",
+            "CSS",
+            "SASS",
+            "JS",
+            "REACT",
+            "NODE",
+            "EXPRESS"
+        ]
     },
     {
         "id": "P5",
@@ -37,6 +68,15 @@
         "description": "Descripción del proyecto 2",
         "desktop image": "imagen1.jpg",
         "tablet image": "",
-        "movile image": ""
+        "movile image": "",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JS",
+            "REACT",
+            "NODE",
+            "EXPRESS",
+            "BOOTSTRAP"
+        ]
     }
 ]

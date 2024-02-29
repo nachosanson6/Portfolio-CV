@@ -1,0 +1,15 @@
+.projectCard {
+    position: relative;
+    background-color: rgb(222, 221, 226);
+    border-radius: 30px;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 60vw;
+
+}
+
+.projectCard img {
+    height: 3rem;
+    width: auto;
+    margin-right: 0.2rem;
+}
