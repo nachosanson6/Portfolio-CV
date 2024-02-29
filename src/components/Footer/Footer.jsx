@@ -4,6 +4,7 @@ import phone from "/assets/images/phone.svg"
 import logo from "/assets/images/logo.png"
 
 const Footer = () => {
+
     return (
         <footer>
             <div className="footerComponent">
@@ -12,11 +13,11 @@ const Footer = () => {
                         <img src={logo} alt="Logo" />
                     </div>
                     <div className="info-item">
-                        <img src={phone} alt="Phone" />
+                        <img className="phone" src={phone} alt="Phone" />
                         <p className="contact-info">675239429</p>
                     </div>
                     <div className="info-item envelope">
-                        <img src={envelope} alt="Envelope" />
+                        <img className="envelope" src={envelope} alt="Envelope" />
                         <p className="contact-info">nachosanson6@gmail.com</p>
                     </div>
                 </div>

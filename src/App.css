@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
     margin: 0;
 
+
 }
 
 #root {
@@ -14,12 +15,26 @@ body {
 
 .content {
     padding: 0 7.5rem;
+    min-height: 100vh;
+
+}
+
+.mainBody {
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
 }
 
 /* Tablet */
 @media (max-width: 768px) {
     .content {
         padding: 0 5rem;
+    }
+
+    .mainBody {
+        display: flex;
+        justify-content: center;
+        min-height: 0;
     }
 }
 

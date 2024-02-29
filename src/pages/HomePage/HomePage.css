@@ -24,7 +24,12 @@
     font-weight: bold;
     font-size: 1.5rem;
     background: linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%);
-    border-radius: 1.5625rem
+    border-radius: 1.5625rem;
+
+}
+
+.homePage a {
+    text-decoration: none;
 }
 
 .desktop-tablet-button {
@@ -54,6 +59,12 @@
 @media (max-width: 480px) {
     .homePage {
         flex-direction: column;
+    }
+
+    .homePage a {
+        display: flex;
+        justify-content: center;
+
     }
 
     .desktop-tablet-button {

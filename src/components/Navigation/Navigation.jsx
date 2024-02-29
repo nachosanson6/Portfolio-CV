@@ -1,10 +1,22 @@
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navigation.css";
 import { Navbar, Nav } from "react-bootstrap";
 
 const Navigation = () => {
+
+    const [expanded, setExpanded] = useState(false);
+
+    const handleToggle = () => {
+        setExpanded(!expanded);
+    };
+
+    const handleLinkClick = () => {
+        setExpanded(false);
+    };
+
     return (
-        <Navbar expand="lg">
+        <Navbar expand="lg" expanded={expanded} onToggle={handleToggle}>
             <div className="navigation">
                 <div className="links">
                     <div className="navbar-brand">
@@ -15,9 +27,9 @@ const Navigation = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <div className="pages">
                         <Nav className="mr-auto">
-                            <Link to={"/"} className="nav-link" activeClassName="active">Home</Link>
-                            <Link to={"/projects"} className="nav-link" activeClassName="active">Projects</Link>
-                            <Link to={"/about"} className="nav-link" activeClassName="active">About</Link>
+                            <Link to={"/"} className="nav-link" activeClassName="active" onClick={handleLinkClick}>Home</Link>
+                            <Link to={"/projects"} className="nav-link" activeClassName="active" onClick={handleLinkClick}>Projects</Link>
+                            <Link to={"/about"} className="nav-link" activeClassName="active" onClick={handleLinkClick}>About</Link>
                         </Nav>
                     </div>
                     <div className="options">

@@ -1,7 +1,5 @@
 footer {
     position: relative;
-    bottom: 0px;
-    left: 0;
     width: 100%;
     display: flex;
     padding: 20px;
@@ -52,6 +50,7 @@ footer {
     align-items: flex-end;
 
 }
+
 
 @media screen and (max-width: 767px) {}
 
