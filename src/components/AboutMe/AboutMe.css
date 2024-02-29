@@ -5,13 +5,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: 158%;
-    background-color: transparent;
-}
 
-.aboutme {
-
-    padding-top: 14%;
-    margin-left: 10%;
 }
 
 .presentation {
@@ -21,7 +15,17 @@
 }
 
 /* Tablet */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .aboutMe {
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 3%;
+    }
+}
 
 /*Movil */
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    .aboutMe {
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 3%;
+    }
+}

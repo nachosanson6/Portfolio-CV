@@ -1,6 +1,21 @@
 .aboutPage {
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5rem;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .aboutPage {
+        padding-top: 1rem;
+    }
+}
+
+/*Movil */
+@media (max-width: 480px) {
+    .aboutPage {
+        padding-top: 1rem;
+    }
 }
