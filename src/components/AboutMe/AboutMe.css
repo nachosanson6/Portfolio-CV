@@ -17,15 +17,17 @@
 /* Tablet */
 @media (max-width: 768px) {
     .aboutMe {
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.5);
         border-radius: 3%;
+        padding: 1rem;
+        border: 1px solid white;
     }
 }
 
 /*Movil */
 @media (max-width: 480px) {
     .aboutMe {
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.5);
         border-radius: 3%;
     }
 }
