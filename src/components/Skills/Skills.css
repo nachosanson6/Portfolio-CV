@@ -24,7 +24,9 @@
 }
 
 .skills h2 {
-    color: white;
+    background-image: linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%);
+    -webkit-background-clip: text;
+    color: transparent !important;
     font-size: 64px;
     font-weight: 800;
     line-height: 101px;

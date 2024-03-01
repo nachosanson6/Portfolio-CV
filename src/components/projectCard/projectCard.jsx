@@ -8,7 +8,7 @@ const ProjectCard = ({ project }) => {
             <h2>{project.title}</h2>
             <p>{project.description}</p>
             {project.skills.map(skill => (
-                <img src={`src/assets/images/logo${skill}.png`} alt="" />
+                <img src={`/assets/images/logo${skill}.png`} alt="" />
             ))}
         </div>
     )

@@ -1,6 +1,6 @@
 body {
     padding: 0;
-    background-image: url('/src/assets/images/BACKGROUND IMAGE.png');
+    background-image: url('/assets/images/BACKGROUND IMAGE.png');
     background-size: cover;
     min-height: 100vh;
     box-sizing: border-box;
