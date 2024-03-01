@@ -8,6 +8,17 @@
 
 }
 
+.projectCard .projectDescription {
+    max-height: 100px;
+    overflow: hidden;
+    transition: 1s ease;
+}
+
+.projectCard .projectDescription.show {
+    max-height: 200px;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .projectCard .frame {
     display: flex;
     justify-content: space-between;
@@ -19,13 +30,29 @@
     flex-wrap: wrap;
 }
 
+.arrow-svg path {
+    fill: linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%);
+}
+
+.projectCard .arrowButtonFrame {
+    display: flex;
+    justify-content: center;
+}
+
+
+.projectCard .arrowButton {
+    border: none;
+    background-color: transparent;
+    padding: 1rem;
+}
+
 .projectCard img {
     height: 3rem;
     width: auto;
     margin-right: 0.2rem;
 }
 
-.projectCard button {
+.projectCard .buttons button {
     background: linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%);
     border-radius: 1.5625rem;
     font-weight: bold;
@@ -49,6 +76,10 @@
 
     .projectCard .skillsElements {
         padding-bottom: 1rem;
+    }
+
+    .projectCard .skillsList {
+        justify-content: center;
     }
 
 

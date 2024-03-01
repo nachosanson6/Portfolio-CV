@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navigation.css";
 import { Navbar, Nav } from "react-bootstrap";
 
@@ -27,9 +27,9 @@ const Navigation = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <div className="pages">
                         <Nav className="mr-auto">
-                            <Link to={"/"} className="nav-link" activeClassName="active" onClick={handleLinkClick}>Home</Link>
-                            <Link to={"/projects"} className="nav-link" activeClassName="active" onClick={handleLinkClick}>Projects</Link>
-                            <Link to={"/about"} className="nav-link" activeClassName="active" onClick={handleLinkClick}>About</Link>
+                            <NavLink to={"/"} className="nav-link" activeClassName="active" onClick={handleLinkClick}>Home</NavLink>
+                            <NavLink to={"/projects"} className="nav-link" activeClassName="active" onClick={handleLinkClick}>Projects</NavLink>
+                            <NavLink to={"/about"} className="nav-link" activeClassName="active" onClick={handleLinkClick}>About</NavLink>
                         </Nav>
                     </div>
                     <div className="options">

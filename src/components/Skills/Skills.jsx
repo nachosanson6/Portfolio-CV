@@ -4,7 +4,9 @@ import "./Skills.css"
 const Skills = () => {
     return (
         <div className="skills">
-            <h2>Habilidades</h2>
+            <div className="skillsTitle">
+                <h2>Habilidades</h2>
+            </div>
             <div className="skillsCards">
                 {skillsData.map(skill => (
                     <div className="skillsCard" key={skill.id}>
