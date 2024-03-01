@@ -7,7 +7,7 @@ footer {
     border-bottom: 2px solid rgba(188, 156, 46, 0.00);
     background: var(--Colors-Black, #222);
     align-items: center;
-
+    margin-top: 5rem;
 }
 
 
@@ -59,7 +59,6 @@ footer {
 
     footer {
         padding-top: 0%;
-
     }
 
     .information {
@@ -75,7 +74,6 @@ footer {
     footer {
         flex-direction: column;
         padding: 0%;
-        margin-top: 5rem;
         display: flex;
         align-items: center;
 

@@ -3,22 +3,24 @@
         "id": "P1",
         "title": "Flor is lava",
         "description": "Este fue el primer proyecto completo que desarrollé durante el bootcamp. Junto a mi compañero Rodrigo, creamos este videojuego utilizando HTML, CSS, JavaScript y el DOM. Fue un esfuerzo en equipo en el que tuvimos que hacer lluvia de ideas, diseñar y construir el videojuego desde cero.",
-        "desktop image": "imagen1.jpg",
-        "tablet image": "",
-        "movile image": "",
+        "desktop_image": "imagen1.jpg",
+        "tablet_image": "",
+        "movile_image": "",
         "skills": [
             "HTML",
             "CSS",
             "JS"
-        ]
+        ],
+        "github_link": "https://github.com/nachosanson6/Floor_is_lava",
+        "web_link": "https://nachosanson6.github.io/Floor_is_lava/"
     },
     {
         "id": "P2",
         "title": "BoardMaster",
         "description": "Proyecto que desarrollé con mi compañera Isabella durante el segundo módulo del bootcamp. Es una aplicación para crear eventos para jugar juegos de mesa. Además, al crear un evento, puedes ver la ubicación del evento y todos los eventos previamente creados en un mapa a través de la API de Google Maps.También tienes acceso a una galería de todos los juegos de mesa que obtenemos de una API externa.",
-        "desktop image": "imagen1.jpg",
-        "tablet image": "",
-        "movile image": "",
+        "desktop_image": "imagen1.jpg",
+        "tablet_image": "",
+        "movile_image": "",
         "skills": [
             "HTML",
             "CSS",
@@ -26,15 +28,17 @@
             "NODE",
             "EXPRESS",
             "BOOTSTRAP"
-        ]
+        ],
+        "github_link": "https://github.com/nachosanson6/board-master",
+        "web_link": "https://boardmaster.fly.dev/"
     },
     {
         "id": "P3",
         "title": "JamLink",
         "description": "Último proyecto desarrollado durante el bootcamp.JamLink es una red social para músicos que desean conocer a otros músicos para tocar juntos y organizar jam sessions. En ella, puedes encontrar una comunidad de usuarios donde puedes conocer a nuevas personas, ver los instrumentos que tocan y agregarlos como amigos.También puedes crear eventos a los que otros usuarios pueden unirse, ver todos los eventos en un mapa de Google y dejar comentarios. Desarrollé la aplicación con mi compañero Fernando y como próximos pasos, nos gustaría implementar una sección donde los usuarios puedan agregar videos de las jam sessions y, incluso, un chat para facilitar la comunicación entre los usuarios de la aplicación.",
-        "desktop image": "imagen1.jpg",
-        "tablet image": "",
-        "movile image": "",
+        "desktop_image": "imagen1.jpg",
+        "tablet_image": "",
+        "movile_image": "",
         "skills": [
             "HTML",
             "CSS",
@@ -43,15 +47,17 @@
             "NODE",
             "EXPRESS",
             "BOOTSTRAP"
-        ]
+        ],
+        "github_link": "https://github.com/nachosanson6/JamLink-client",
+        "web_link": "https://jamlink.netlify.app/"
     },
     {
         "id": "P4",
         "title": "HappyCode",
         "description": "Descripción del proyecto 2",
-        "desktop image": "imagen1.jpg",
-        "tablet image": "",
-        "movile image": "",
+        "desktop_image": "imagen1.jpg",
+        "tablet_image": "",
+        "movile_image": "",
         "skills": [
             "HTML",
             "CSS",
@@ -60,15 +66,17 @@
             "REACT",
             "NODE",
             "EXPRESS"
-        ]
+        ],
+        "github_link": "",
+        "web_link": ""
     },
     {
         "id": "P5",
         "title": "Eloy Arts",
         "description": "Descripción del proyecto 2",
-        "desktop image": "imagen1.jpg",
-        "tablet image": "",
-        "movile image": "",
+        "desktop_image": "imagen1.jpg",
+        "tablet_image": "",
+        "movile_image": "",
         "skills": [
             "HTML",
             "CSS",
@@ -77,6 +85,8 @@
             "NODE",
             "EXPRESS",
             "BOOTSTRAP"
-        ]
+        ],
+        "github_link": "",
+        "web_link": ""
     }
 ]

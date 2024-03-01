@@ -8,8 +8,28 @@
 
 }
 
+.projectCard .frame {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.projectCard .buttons {}
+
+.projectCard .skillsList {
+    display: flex;
+}
+
 .projectCard img {
     height: 3rem;
     width: auto;
     margin-right: 0.2rem;
+}
+
+.projectCard button {
+    background: linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%);
+    border-radius: 1.5625rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    width: 5rem;
 }
