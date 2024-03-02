@@ -110,6 +110,10 @@
         align-items: center;
     }
 
+    .projectCard .arrowButton {
+        width: 20%;
+    }
+
     .projectCard .buttons {
         padding-top: 1rem;
         display: flex;
@@ -128,5 +132,7 @@
 
 /* Movil */
 @media (max-width: 480px) {
-    /* Estilos para dispositivos móviles */
+    .projectCard .arrowButton {
+        width: 30%;
+    }
 }
