@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./projectCard.css";
+import Carousel from "../Carousel/Carousel";
+
 
 const ProjectCard = ({ project, index, visible }) => {
     const [showButton, setShowButton] = useState(false);
@@ -48,6 +50,9 @@ const ProjectCard = ({ project, index, visible }) => {
                         <button>Web</button>
                     </a>
                 </div>
+            </div>
+            <div className="carousel_frame">
+                <Carousel mobile_photo={project.movile_image} tablet_photo={project.tablet_image} desktop_photo={project.desktop_image} />
             </div>
         </div>
     );

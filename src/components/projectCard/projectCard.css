@@ -79,7 +79,7 @@
     justify-content: center;
 }
 
-.projectCard img {
+.projectCard .skillsList img {
     height: 3rem;
     width: auto;
     margin-right: 0.2rem;
@@ -92,6 +92,13 @@
     margin-right: 1rem;
     width: 5rem;
 }
+
+.projectCard .carousel_frame {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
 
 /* Tablet */
 @media (max-width: 768px) {
@@ -113,6 +120,7 @@
     .projectCard .skillsList {
         justify-content: center;
     }
+
 }
 
 /* Movil */
