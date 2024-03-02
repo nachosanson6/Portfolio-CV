@@ -29,38 +29,20 @@
 /* Tablet */
 @media (max-width: 768px) {
     .carousel .mobile_image {
-        width: 30%;
+        height: 100%;
     }
 
     .carousel .tablet_image {
-        width: 50%;
+        height: 100%;
     }
 
     .carousel .desktop_image {
-        width: 100%;
+        height: 100%;
 
     }
+
 
 }
 
 /* Movil */
-@media (max-width: 480px) {
-
-    .carousel {
-        width: 80%;
-    }
-
-    .carousel .mobile_image {
-        height: 100%;
-    }
-
-    .carousel .tablet_image {
-        height: 100%;
-    }
-
-    .carousel .desktop_image {
-        height: 100%;
-
-    }
-
-}
+@media (max-width: 480px) {}
