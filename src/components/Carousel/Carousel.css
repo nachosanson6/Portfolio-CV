@@ -47,7 +47,7 @@
 @media (max-width: 480px) {
 
     .carousel {
-        width: 50%;
+        width: 80%;
     }
 
     .carousel .mobile_image {
