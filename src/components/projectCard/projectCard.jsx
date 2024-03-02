@@ -1,10 +1,11 @@
-import { useRef, useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./projectCard.css";
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = ({ project, index, visible }) => {
     const [showButton, setShowButton] = useState(false);
     const [showDescription, setShowDescription] = useState(false);
     const descriptionRef = useRef(null);
+    const cardRef = useRef(null);
 
     useEffect(() => {
         if (descriptionRef.current && descriptionRef.current.scrollHeight > descriptionRef.current.clientHeight) {
@@ -19,7 +20,7 @@ const ProjectCard = ({ project }) => {
     };
 
     return (
-        <div className="projectCard">
+        <div className={`projectCard ${visible ? 'visible' : ''} slide-in-${index % 2 === 0 ? 'right' : 'left'}`} ref={cardRef}>
             <h2>{project.title}</h2>
             <div className={`projectDescription ${showDescription ? 'show' : ''}`} ref={descriptionRef}>
                 <p>{project.description}</p>
@@ -29,7 +30,6 @@ const ProjectCard = ({ project }) => {
                     <button className={`arrowButton ${showDescription ? 'rotated' : ''}`} onClick={rotateArrow}>
                         <img src="/assets/images/arrow.svg" alt="Ver más" />
                     </button>
-
                 </div>
             )}
             <div className="frame">
@@ -49,8 +49,8 @@ const ProjectCard = ({ project }) => {
                     </a>
                 </div>
             </div>
-        </div >
-    )
-}
+        </div>
+    );
+};
 
 export default ProjectCard;

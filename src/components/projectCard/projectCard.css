@@ -5,13 +5,46 @@
     padding: 1rem;
     margin-top: 1rem;
     width: 60vw;
+    opacity: 0;
+    transition: opacity 2s ease, transform 2s ease;
+}
 
+.projectCard.visible {
+    opacity: 1;
+}
+
+.projectCard.slide-in-right {
+    animation: slide-in-right 2s ease;
+}
+
+.projectCard.slide-in-left {
+    animation: slide-in-left 2s ease;
+}
+
+@keyframes slide-in-right {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-left {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
 
 .projectCard .projectDescription {
     max-height: 50px;
     overflow: hidden;
-    transition: 1s ease;
+    transition: max-height 1s ease;
 }
 
 .projectCard .projectDescription.show {
@@ -31,20 +64,14 @@
     transform: rotate(0deg);
 }
 
-
 .projectCard .frame {
     display: flex;
     justify-content: space-between;
-
 }
 
 .projectCard .skillsList {
     display: flex;
     flex-wrap: wrap;
-}
-
-.arrow-svg path {
-    fill: linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%);
 }
 
 .projectCard .arrowButtonFrame {
@@ -71,7 +98,6 @@
     .projectCard .frame {
         flex-direction: column;
         align-items: center;
-
     }
 
     .projectCard .buttons {
@@ -87,9 +113,9 @@
     .projectCard .skillsList {
         justify-content: center;
     }
-
-
 }
 
-/*Movil */
-@media (max-width: 480px) {}
+/* Movil */
+@media (max-width: 480px) {
+    /* Estilos para dispositivos móviles */
+}

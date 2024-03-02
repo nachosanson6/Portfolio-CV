@@ -4,3 +4,12 @@
     align-items: center;
     position: relative;
 }
+
+.projectContainer {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.projectContainer.visible {
+    opacity: 1;
+}
