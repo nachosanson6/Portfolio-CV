@@ -9,15 +9,28 @@
 }
 
 .projectCard .projectDescription {
-    max-height: 100px;
+    max-height: 50px;
     overflow: hidden;
     transition: 1s ease;
 }
 
 .projectCard .projectDescription.show {
-    max-height: 200px;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    max-height: 1000px;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.9, 1);
 }
+
+.projectCard .arrowButton {
+    border: none;
+    background-color: transparent;
+    padding: 1rem;
+    transition: transform 0.5s ease;
+    transform: rotate(180deg);
+}
+
+.projectCard .arrowButton.rotated {
+    transform: rotate(0deg);
+}
+
 
 .projectCard .frame {
     display: flex;
@@ -37,13 +50,6 @@
 .projectCard .arrowButtonFrame {
     display: flex;
     justify-content: center;
-}
-
-
-.projectCard .arrowButton {
-    border: none;
-    background-color: transparent;
-    padding: 1rem;
 }
 
 .projectCard img {
