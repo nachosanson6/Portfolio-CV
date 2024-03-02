@@ -23,7 +23,7 @@
 }
 
 .carousel .desktop_image {
-    width: 85%;
+    width: 100%;
 }
 
 /* Tablet */
@@ -37,7 +37,7 @@
     }
 
     .carousel .desktop_image {
-        width: 90%;
+        width: 100%;
 
     }
 
@@ -51,15 +51,15 @@
     }
 
     .carousel .mobile_image {
-        width: 60%;
+        height: 100%;
     }
 
     .carousel .tablet_image {
-        width: 80%;
+        height: 100%;
     }
 
     .carousel .desktop_image {
-        width: 100%;
+        height: 100%;
 
     }
 
