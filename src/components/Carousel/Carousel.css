@@ -26,6 +26,14 @@
     width: 100%;
 }
 
+.carousel .slick-prev:before {
+    color: black !important
+}
+
+.carousel .slick-next:before {
+    color: black !important
+}
+
 /* Tablet */
 @media (max-width: 768px) {
     .carousel {
