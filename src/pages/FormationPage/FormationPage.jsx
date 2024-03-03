@@ -1,10 +1,15 @@
 import "./FormationPage.css"
 import formationData from "./../../jsons/formation.json"
+import FormationCard from "../../components/FormationCard/FormationCard"
 
 const FormationPage = () => {
+
+    console.log(formationData)
     return (
         <div className="FormationPage">
-            <h2>Aqui va la formacion</h2>
+            {formationData.map((formation, index) => (
+                <FormationCard key={formation.id} formation={formation} index={index} visible={true} />
+            ))}
         </div>
     )
 }

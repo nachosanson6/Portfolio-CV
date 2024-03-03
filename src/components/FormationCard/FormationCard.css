@@ -1,0 +1,42 @@
+.formationCard {
+    position: relative;
+    background-color: rgb(222, 221, 226);
+    border-radius: 30px;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 60vw;
+    opacity: 0;
+    transition: opacity 2s ease, transform 2s ease;
+}
+
+.formationCard.visible {
+    opacity: 1;
+}
+
+.formationCard.slide-in-right {
+    animation: slide-in-right 2s ease;
+}
+
+.formationCard.slide-in-left {
+    animation: slide-in-left 2s ease;
+}
+
+@keyframes slide-in-right {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-left {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
