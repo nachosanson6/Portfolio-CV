@@ -132,11 +132,19 @@
         justify-content: center;
     }
 
+    .projectCard .desktop_image {
+        width: 70%;
+    }
+
 }
 
 /* Movil */
 @media (max-width: 480px) {
     .projectCard .arrowButton {
         width: 30%;
+    }
+
+    .projectCard .desktop_image {
+        width: 90%;
     }
 }
