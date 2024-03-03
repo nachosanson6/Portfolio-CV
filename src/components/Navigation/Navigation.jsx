@@ -27,9 +27,11 @@ const Navigation = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <div className="pages">
                         <Nav className="mr-auto">
-                            <NavLink to={"/"} className="nav-link" activeClassName="active" onClick={handleLinkClick}>Home</NavLink>
-                            <NavLink to={"/projects"} className="nav-link" activeClassName="active" onClick={handleLinkClick}>Projects</NavLink>
-                            <NavLink to={"/about"} className="nav-link" activeClassName="active" onClick={handleLinkClick}>About</NavLink>
+                            <NavLink to={"/"} className="nav-link" activeClassName="active" onClick={handleLinkClick}>Inicio</NavLink>
+                            <NavLink to={"/projects"} className="nav-link" activeClassName="active" onClick={handleLinkClick}>Proyectos</NavLink>
+                            <NavLink to={"/experience"} className="nav-link" activeClassName="active" onClick={handleLinkClick}>Experiencia</NavLink>
+                            <NavLink to={"/formation"} className="nav-link" activeClassName="active" onClick={handleLinkClick}>Estudios</NavLink>
+                            <NavLink to={"/about"} className="nav-link" activeClassName="active" onClick={handleLinkClick}>Sobre mi</NavLink>
                         </Nav>
                     </div>
                     <div className="options">

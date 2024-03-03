@@ -11,7 +11,9 @@ const Skills = () => {
                 {skillsData.map(skill => (
                     <div className="skillsCard" key={skill.id}>
                         <img className="skillsImages" src={`/assets/images/${skill.logoImage}`} alt={skill.name} />
-                        <h3>{skill.name}</h3>
+                        <div className="skills_name">
+                            <h3>{skill.name}</h3>
+                        </div>
                     </div>
                 ))}
             </div>

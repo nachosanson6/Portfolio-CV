@@ -5,6 +5,12 @@
 
 }
 
+.homePage .presentation {
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+}
+
 .homePage h1 {
     background-image: linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%);
     -webkit-background-clip: text;
@@ -51,14 +57,14 @@
     }
 
 
-
-
 }
 
 /*Movil */
 @media (max-width: 480px) {
     .homePage {
         flex-direction: column;
+        align-items: center;
+
     }
 
     .homePage a {
