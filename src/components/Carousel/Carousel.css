@@ -28,21 +28,19 @@
 
 /* Tablet */
 @media (max-width: 768px) {
-    .carousel .mobile_image {
-        height: 100%;
-    }
+    .carousel {
+        width: 70%;
 
-    .carousel .tablet_image {
-        height: 100%;
     }
+}
 
-    .carousel .desktop_image {
-        height: 100%;
+/* Movil */
+@media (max-width: 480px) {
+
+    .carousel {
+        width: 90%;
 
     }
 
 
 }
-
-/* Movil */
-@media (max-width: 480px) {}
