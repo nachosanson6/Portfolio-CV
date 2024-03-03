@@ -18,7 +18,7 @@
         "id": "P2",
         "title": "BoardMaster",
         "description": "Proyecto que desarrollé con mi compañera Isabella durante el segundo módulo del bootcamp. Es una aplicación para crear eventos para jugar juegos de mesa. Además, al crear un evento, puedes ver la ubicación del evento y todos los eventos previamente creados en un mapa a través de la API de Google Maps. También tienes acceso a una galería de todos los juegos de mesa que obtenemos de una API externa.",
-        "desktop_image": "imagen1.jpg",
+        "desktop_image": "BM_MacBook.png",
         "tablet_image": "",
         "movile_image": "",
         "skills": [
@@ -36,9 +36,9 @@
         "id": "P3",
         "title": "JamLink",
         "description": "Último proyecto desarrollado durante el bootcamp. JamLink es una red social para músicos que desean conocer a otros músicos para tocar juntos y organizar jam sessions. En ella, puedes encontrar una comunidad de usuarios donde puedes conocer a nuevas personas, ver los instrumentos que tocan y agregarlos como amigos. También puedes crear eventos a los que otros usuarios pueden unirse, ver todos los eventos en un mapa de Google y dejar comentarios. Desarrollé la aplicación con mi compañero Fernando y como próximos pasos, nos gustaría implementar una sección donde los usuarios puedan agregar videos de las jam sessions e, incluso, un chat para facilitar la comunicación entre los usuarios de la aplicación.",
-        "desktop_image": "imagen1.jpg",
-        "tablet_image": "",
-        "movile_image": "",
+        "desktop_image": "JL_MacBook.png",
+        "tablet_image": "JL_iPad.png",
+        "movile_image": "JL_Phone.png",
         "skills": [
             "HTML",
             "CSS",
@@ -55,9 +55,9 @@
         "id": "P4",
         "title": "HappyCode",
         "description": "Este proyecto lo realicé con varios compañeros del bootcamp una vez había terminado. Es una landind page ",
-        "desktop_image": "imagen1.jpg",
-        "tablet_image": "",
-        "movile_image": "",
+        "desktop_image": "HP_MacBook.png",
+        "tablet_image": "HP_iPad.png",
+        "movile_image": "HP_Phone.png",
         "skills": [
             "HTML",
             "CSS",
@@ -68,15 +68,15 @@
             "EXPRESS"
         ],
         "github_link": "",
-        "web_link": ""
+        "web_link": "https://happycodev.com/"
     },
     {
         "id": "P5",
         "title": "Eloy Arts",
         "description": "Descripción del proyecto 2",
-        "desktop_image": "imagen1.jpg",
-        "tablet_image": "",
-        "movile_image": "",
+        "desktop_image": "EA_MacBook.png",
+        "tablet_image": "EA_iPad.png",
+        "movile_image": "EA_Phone.png",
         "skills": [
             "HTML",
             "CSS",
@@ -86,7 +86,7 @@
             "EXPRESS",
             "BOOTSTRAP"
         ],
-        "github_link": "",
-        "web_link": ""
+        "github_link": "https://github.com/nachosanson6/Eloy-app-client",
+        "web_link": "https://www.eloyarts.com/"
     }
 ]
