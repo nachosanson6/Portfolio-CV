@@ -2,7 +2,7 @@ import "./FormationCard.css"
 
 const FormationCard = ({ formation, index, visible }) => {
 
-    console.log(visible)
+
     return (
         <div className={`formationCard ${visible ? 'visible' : ''} slide-in-${index % 2 === 0 ? 'right' : 'left'}`}>
             <h2>{formation.titulation}</h2>
