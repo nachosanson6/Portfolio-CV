@@ -1,0 +1,13 @@
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(222, 221, 226);
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+.filter .skillCheckbox {
+    color: black;
+    flex: 1 0 120px;
+}

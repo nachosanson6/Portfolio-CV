@@ -21,8 +21,6 @@ const ProjectCard = ({ project, index, visible }) => {
         setShowDescription(prevState => !prevState);
     };
 
-    console.log(project.movile_image)
-
     return (
         <div className={`projectCard ${visible ? 'visible' : ''} slide-in-${index % 2 === 0 ? 'right' : 'left'}`} ref={cardRef}>
             <h2>{project.title}</h2>

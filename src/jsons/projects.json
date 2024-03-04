@@ -9,7 +9,8 @@
         "skills": [
             "HTML",
             "CSS",
-            "JS"
+            "JS",
+            "GITHUB"
         ],
         "github_link": "https://github.com/nachosanson6/Floor_is_lava",
         "web_link": "https://nachosanson6.github.io/Floor_is_lava/"
@@ -27,7 +28,10 @@
             "JS",
             "NODE",
             "EXPRESS",
-            "BOOTSTRAP"
+            "BOOTSTRAP",
+            "GITHUB",
+            "MONGO",
+            "POSTMAN"
         ],
         "github_link": "https://github.com/nachosanson6/board-master",
         "web_link": "https://boardmaster.fly.dev/"
@@ -46,7 +50,10 @@
             "REACT",
             "NODE",
             "EXPRESS",
-            "BOOTSTRAP"
+            "BOOTSTRAP",
+            "GITHUB",
+            "MONGO",
+            "POSTMAN"
         ],
         "github_link": "https://github.com/nachosanson6/JamLink-client",
         "web_link": "https://jamlink.netlify.app/"
@@ -64,8 +71,7 @@
             "SASS",
             "JS",
             "REACT",
-            "NODE",
-            "EXPRESS"
+            "GITHUB"
         ],
         "github_link": "",
         "web_link": "https://happycodev.com/"
@@ -84,7 +90,10 @@
             "REACT",
             "NODE",
             "EXPRESS",
-            "BOOTSTRAP"
+            "BOOTSTRAP",
+            "GITHUB",
+            "MONGO",
+            "POSTMAN"
         ],
         "github_link": "https://github.com/nachosanson6/Eloy-app-client",
         "web_link": "https://www.eloyarts.com/"

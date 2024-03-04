@@ -13,7 +13,6 @@ const Carousel = ({ mobile_photo, tablet_photo, desktop_photo }) => {
         slidesToScroll: 1
     };
 
-    console.log(mobile_photo)
     return (
         <div className="carousel">
             <Slider {...settings}>
