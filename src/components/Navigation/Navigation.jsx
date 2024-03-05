@@ -4,10 +4,12 @@ import "./Navigation.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
+import ContactModal from "../ContactModal/ContactModal";
 
 const Navigation = () => {
 
     const [expanded, setExpanded] = useState(false);
+    const [open, setOpen] = useState(false)
 
     const handleToggle = () => {
         setExpanded(!expanded);
@@ -16,6 +18,10 @@ const Navigation = () => {
     const handleLinkClick = () => {
         setExpanded(false);
     };
+
+    const openModal = () => {
+        setOpen(true)
+    }
 
     return (
         <Navbar expand="lg" expanded={expanded} onToggle={handleToggle}>
@@ -53,7 +59,7 @@ const Navigation = () => {
                         </button> */}
                         </div>
                         <div className="navbar-contact">
-                            <a href="#contact">
+                            <a onClick={openModal}>
                                 <button>Contact</button>
                             </a>
                         </div>
@@ -61,6 +67,7 @@ const Navigation = () => {
                 </Navbar.Collapse>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" gb="light" className="custom-toggler" />
             </div>
+            <ContactModal open={open} setOpen={setOpen} />
         </Navbar>
     );
 };

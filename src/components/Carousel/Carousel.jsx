@@ -17,12 +17,14 @@ const Carousel = ({ mobile_photo, tablet_photo, desktop_photo }) => {
         <div className="carousel">
             <Slider {...settings}>
                 <div className="image_frame">
-                    <img className="mobile_image" src={`assets/images/project_images/${mobile_photo}`} alt="" />
+                    <img className="desktop_image" src={`assets/images/project_images/${desktop_photo}`} alt="" />
                 </div>
                 <div className="image_frame">
-                    <img className="tablet_image" src={`assets/images/project_images/${tablet_photo}`} alt="" />            </div>
+                    <img className="tablet_image" src={`assets/images/project_images/${tablet_photo}`} alt="" />
+                </div>
                 <div className="image_frame">
-                    <img className="desktop_image" src={`assets/images/project_images/${desktop_photo}`} alt="" />            </div>
+                    <img className="mobile_image" src={`assets/images/project_images/${mobile_photo}`} alt="" />
+                </div>
             </Slider>
         </div>
     );

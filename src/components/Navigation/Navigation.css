@@ -53,6 +53,10 @@
     height: 70px;
 }
 
+.navbar-social {
+    display: flex;
+}
+
 .navbar-social .logo {
     width: 30px;
     height: 30px;
@@ -128,11 +132,13 @@
 
     .navigation {
         align-items: flex-start;
+        margin-bottom: 0;
 
     }
 
     .navbar-toggler {
         margin-top: 1rem;
+
     }
 
     .navbar-collapse {
