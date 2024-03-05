@@ -75,6 +75,14 @@
 .projectCard .skillsList {
     display: flex;
     flex-wrap: wrap;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 1rem;
+
+}
+
+.projectCard .skillsElements {
+    padding: 0.2rem;
 }
 
 .projectCard .arrowButtonFrame {
@@ -99,9 +107,11 @@
     font-weight: bold;
     margin-right: 1rem;
     width: auto;
+    height: 3rem;
     display: flex;
     align-items: center;
     text-decoration: underline;
+    padding: 1rem;
 
 }
 
@@ -146,8 +156,8 @@
         justify-content: center;
     }
 
-    .projectCard .skillsElements {
-        padding-bottom: 1rem;
+    .projectCard .buttons button {
+        height: 2rem;
     }
 
     .projectCard .skillsList {
