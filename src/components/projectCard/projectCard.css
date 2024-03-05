@@ -90,6 +90,7 @@
 
 .projectCard .buttons {
     display: flex;
+
 }
 
 .projectCard .buttons button {
@@ -100,6 +101,13 @@
     width: auto;
     display: flex;
     align-items: center;
+    text-decoration: underline;
+
+}
+
+.projectCard .buttons button #text {
+    text-decoration: none;
+
 }
 
 .projectCard .buttons button svg {
