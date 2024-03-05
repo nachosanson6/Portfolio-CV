@@ -9,7 +9,7 @@ const HomePage = () => {
     const [isShowContact, setIsShowContact] = useState(false)
     const { scrollY } = useScroll()
     useMotionValueEvent(scrollY, "change", (latest) => {
-        if (latest >= 200) {
+        if (latest >= 250) {
             setIsShowContact(true)
         }
         else {
