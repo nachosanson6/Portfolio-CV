@@ -39,7 +39,7 @@
 
 .options {
     display: flex;
-    align-items: flex-start
+    align-items: center;
 }
 
 .navbar a {
@@ -55,12 +55,6 @@
 
 .navbar-social {
     display: flex;
-}
-
-.navbar-social .logo {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
 }
 
 .logoGithub {

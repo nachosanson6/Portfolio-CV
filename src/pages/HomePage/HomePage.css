@@ -57,6 +57,10 @@
     /* Oculta el botón para dispositivos móviles inicialmente */
 }
 
+.homePage .contactFrame {
+    width: 100%;
+}
+
 /* Tablet */
 @media (max-width: 768px) {
     .homePage {
@@ -98,4 +102,5 @@
         display: block;
         /* Muestra el botón para dispositivos móviles */
     }
+
 }

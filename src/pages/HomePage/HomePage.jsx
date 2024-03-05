@@ -1,8 +1,23 @@
 import "./HomePage.css"
 import mi_cv from './../../assets/documents/mi_cv.pdf'
 import ContactForm from "../../components/ContactForm/ContactForm"
+import { useState } from "react"
+import { motion, useMotionValueEvent, useScroll } from 'framer-motion';
 
 const HomePage = () => {
+
+    const [isShowContact, setIsShowContact] = useState(false)
+    const { scrollY } = useScroll()
+    useMotionValueEvent(scrollY, "change", (latest) => {
+        if (latest >= 180) {
+            setIsShowContact(true)
+        }
+        else {
+            setIsShowContact(false)
+        }
+
+    })
+
     return (
         <div className="homePage">
             <div className="homeInfo">
@@ -20,8 +35,9 @@ const HomePage = () => {
                     <button className="mobile-button mt-3">Descargar CV</button>
                 </a>
             </div>
-            <ContactForm />
-
+            <motion.div className="contactFrame" animate={isShowContact ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0 }} >
+                <ContactForm />
+            </motion.div>
         </div>
     )
 }

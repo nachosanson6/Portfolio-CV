@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import "./Navigation.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { FaGithub } from "react-icons/fa";
+import { IconContext } from "react-icons";
 import { CiLinkedin } from "react-icons/ci";
 import ContactModal from "../ContactModal/ContactModal";
 
@@ -45,11 +46,14 @@ const Navigation = () => {
                     <div className="options">
                         <div className="navbar-social">
                             <a href="https://github.com/nachosanson6" target="_blank" rel="noopener noreferrer">
-                                <FaGithub />
-
+                                <IconContext.Provider value={{ size: "2.5rem", className: "global-class-name" }}>
+                                    <FaGithub />
+                                </IconContext.Provider>
                             </a>
                             <a href="https://www.linkedin.com/in/ignacio-sanson/" target="_blank" rel="noopener noreferrer">
-                                <CiLinkedin className="logo" />
+                                <IconContext.Provider value={{ size: "2.8rem", className: "global-class-name" }}>
+                                    <CiLinkedin className="logo" />
+                                </IconContext.Provider>
                             </a>
                         </div>
                         <div className="navbar-language">
