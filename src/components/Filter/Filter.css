@@ -1,13 +1,61 @@
 .filter {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
+    width: 60vw;
+}
+
+.filter .projectFilter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     background-color: rgb(222, 221, 226);
     border-radius: 30px;
-    padding: 1rem;
+    padding: 1rem 0;
 }
+
+.filter .projectFilter input {
+    width: 50%;
+}
+
+.filter .checkboxesContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(222, 221, 226);
+    border-radius: 30px;
+    margin-top: 1rem;
+    overflow: hidden;
+    max-height: 0;
+    padding: 0;
+    transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+.filter .checkboxesContainer.show {
+    max-height: 1000px;
+    padding: 1rem 0;
+}
+
 
 .filter .skillCheckbox {
     color: black;
-    flex: 1 0 120px;
+    width: 120px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .filter .projectFilter input {
+        width: 70%;
+    }
+
+}
+
+/* Movil */
+@media (max-width: 480px) {
+    .filter {
+        width: 80vw;
+    }
 }

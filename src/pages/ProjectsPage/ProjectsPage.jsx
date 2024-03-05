@@ -1,4 +1,3 @@
-// ProjectsPage.js
 import React, { useState } from "react";
 import "./ProjectsPage.css";
 import projectsData from "./../../jsons/projects.json";
@@ -8,6 +7,7 @@ import Filter from "../../components/Filter/Filter";
 const ProjectsPage = () => {
 
     const [selectedSkills, setSelectedSkills] = useState([]);
+    const [textFilter, setTextFilter] = useState(""); // Nuevo estado para almacenar el filtro de texto
 
     const handleSkillToggle = (skillName) => {
         if (selectedSkills.includes(skillName)) {
@@ -17,15 +17,26 @@ const ProjectsPage = () => {
         }
     };
 
-    const isProjectVisible = (project) => {
-        if (selectedSkills.length === 0) return true; // Si no se ha seleccionado ninguna habilidad, mostrar todos los proyectos
-        return selectedSkills.every(skill => project.skills.includes(skill));
+    const handleTextFilterChange = (text) => {
+        setTextFilter(text);
     };
+
+    const isProjectVisible = (project) => {
+        // Verifica si el proyecto coincide con las habilidades seleccionadas
+        const skillsMatch = selectedSkills.length === 0 || selectedSkills.every(skill => project.skills.includes(skill));
+
+        // Verifica si el nombre del proyecto está definido y contiene el texto del filtro
+        const textMatch = textFilter === '' || (project.title && project.title.toLowerCase().includes(textFilter.toLowerCase()));
+
+        // El proyecto es visible si coincide tanto con las habilidades seleccionadas como con el filtro de texto
+        return skillsMatch && textMatch;
+    };
+
 
 
     return (
         <div className="projectsPage">
-            <Filter onSkillToggle={handleSkillToggle} />
+            <Filter onSkillToggle={handleSkillToggle} onTextFilterChange={handleTextFilterChange} />
             {projectsData
                 .filter(isProjectVisible)
                 .map((project, index) => (

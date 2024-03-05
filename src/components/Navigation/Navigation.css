@@ -53,7 +53,7 @@
     height: 70px;
 }
 
-.navbar-social img {
+.navbar-social .logo {
     width: 30px;
     height: 30px;
     margin-right: 10px;
@@ -148,4 +148,9 @@
         padding-top: 1rem;
         padding-left: 0;
     }
+
+    .navbar .options {
+        align-items: self-start;
+    }
+
 }

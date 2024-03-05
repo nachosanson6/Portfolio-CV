@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./Navigation.css";
 import { Navbar, Nav } from "react-bootstrap";
+import { FaGithub } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
 
 const Navigation = () => {
 
@@ -37,10 +39,11 @@ const Navigation = () => {
                     <div className="options">
                         <div className="navbar-social">
                             <a href="https://github.com/nachosanson6" target="_blank" rel="noopener noreferrer">
-                                <img className="logoGithub" src="/assets/images/logoGITHUB.png" alt="GitHub" />
+                                <FaGithub />
+
                             </a>
                             <a href="https://www.linkedin.com/in/ignacio-sanson/" target="_blank" rel="noopener noreferrer">
-                                <img src="/assets/images/logoLINKEDIN.png" alt="LinkedIn" />
+                                <CiLinkedin className="logo" />
                             </a>
                         </div>
                         <div className="navbar-language">

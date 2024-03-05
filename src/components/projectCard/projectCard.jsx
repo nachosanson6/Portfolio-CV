@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./projectCard.css";
 import Carousel from "../Carousel/Carousel";
-
+import { MdOutlineWebAsset } from "react-icons/md";
+import { FaSquareGithub } from "react-icons/fa6";
 
 const ProjectCard = ({ project, index, visible }) => {
     const [showButton, setShowButton] = useState(false);
@@ -44,10 +45,10 @@ const ProjectCard = ({ project, index, visible }) => {
                 </div>
                 <div className="buttons">
                     <a href={project.github_link} target="_blank" rel="noopener noreferrer">
-                        <button>GitHub</button>
+                        <button>GitHub <FaSquareGithub /></button>
                     </a>
                     <a href={project.web_link} target="_blank" rel="noopener noreferrer">
-                        <button>Web</button>
+                        <button>Web <MdOutlineWebAsset /></button>
                     </a>
                 </div>
             </div>
