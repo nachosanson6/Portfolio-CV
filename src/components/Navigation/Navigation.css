@@ -102,6 +102,11 @@
     color: transparent !important;
 }
 
+@media (max-width: 1390px) {
+    .options {
+        flex-direction: column;
+    }
+}
 
 /* Tablet */
 @media (max-width: 768px) {

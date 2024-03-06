@@ -17,5 +17,6 @@
 @media (max-width: 480px) {
     .aboutPage {
         padding-top: 1rem;
+        width: 90%;
     }
 }

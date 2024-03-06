@@ -1,19 +1,25 @@
 [
     {
         "company": "Colegio Miramdrid",
-        "position": "Maestro de educación Primaria",
+        "company_en": "Miramadrid School",
+        "position": "Maestro de Educación Primaria",
+        "position_en": "Primary School Teacher",
         "starting_date": "09/2019",
         "finishing_date": "11/2022"
     },
     {
         "company": "HappyCode",
+        "company_en": "HappyCode",
         "position": "Lead Full-Stack",
+        "position_en": "Lead Full-Stack",
         "starting_date": "09/2023",
         "finishing_date": "12/2023"
     },
     {
         "company": "EloyArts",
+        "company_en": "EloyArts",
         "position": "Full-Stack Developer",
+        "position_en": "Full-Stack Developer",
         "starting_date": "10/2023",
         "finishing_date": "02/2024"
     }
