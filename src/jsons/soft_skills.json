@@ -1,0 +1,44 @@
+[
+    {
+        "id": "SS1",
+        "name": "Trabajo en equipo",
+        "name_en": "Team Work",
+        "logoImage": "logoteam.png"
+    },
+    {
+        "id": "SS2",
+        "name": "Empatía",
+        "name_en": "Empathy",
+        "logoImage": "logoempaphy.png"
+    },
+    {
+        "id": "SS3",
+        "name": "Inteligencia emocional",
+        "name_en": "Emotional intellect",
+        "logoImage": "logo_IE.png"
+    },
+    {
+        "id": "SS4",
+        "name": "Comunicación",
+        "name_en": "Communication",
+        "logoImage": "logoComunication.png"
+    },
+    {
+        "id": "SS5",
+        "name": "Resolucion de conflictos",
+        "name_en": "Conflict resolution",
+        "logoImage": "logoCR.png"
+    },
+    {
+        "id": "SS6",
+        "name": "Escucha activa",
+        "name_en": "Active listening",
+        "logoImage": "logoAl.png"
+    },
+    {
+        "id": "SS7",
+        "name": "Resiliencia",
+        "name_en": "Resilience",
+        "logoImage": "logoResilience.png"
+    }
+]

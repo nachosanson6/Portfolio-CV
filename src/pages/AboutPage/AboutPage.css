@@ -6,10 +6,21 @@
     gap: 5rem;
 }
 
+.aboutPage .skillsFrame {
+    display: flex;
+    gap: 5rem;
+
+}
+
 /* Tablet */
 @media (max-width: 768px) {
     .aboutPage {
         padding-top: 1rem;
+    }
+
+    .aboutPage .skillsFrame {
+        flex-direction: column;
+        align-items: center;
     }
 }
 

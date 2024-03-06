@@ -1,5 +1,5 @@
 .skills {
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,24 +21,40 @@
     background-color: rgb(222, 221, 226);
     border-radius: 30px;
     justify-content: flex-end;
+    width: 8rem;
+    max-width: 140px;
+}
 
+.softskillsCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding: 0.5rem;
+    background-color: rgb(222, 221, 226);
+    border-radius: 30px;
+    justify-content: flex-end;
+    width: 8rem;
+    max-width: 140px;
+    justify-content: flex-start;
 
 }
 
 .skillImageFrame {
     height: auto;
     display: flex;
+
 }
 
 .skillsImages {
     height: auto;
-    width: 4rem;
+    width: 3rem;
     padding-top: 1rem;
 
 }
 
 .skills .skills_name {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: 158%;
@@ -49,15 +65,17 @@
     background-image: linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%);
     -webkit-background-clip: text;
     color: transparent !important;
-    font-size: 64px;
+    font-size: 50px;
     font-weight: 800;
-    line-height: 101px;
+    line-height: 50px;
     text-align: center;
     letter-spacing: 0.15rem;
+    padding-bottom: 1rem;
 }
 
 .skills .skillsTitle {
     display: flex;
+
 }
 
 .skills h3 {
