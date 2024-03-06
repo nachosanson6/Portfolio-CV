@@ -13,6 +13,15 @@
 }
 
 /* Tablet */
+@media (max-width: 1270px) {
+    .aboutPage .skillsFrame {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
 @media (max-width: 768px) {
     .aboutPage {
         padding-top: 1rem;
