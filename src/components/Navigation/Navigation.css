@@ -13,19 +13,12 @@
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
     color: white;
-    padding-bottom: 0;
+    padding-bottom: 0 !important;
 }
-
-
-.navbar-expand-lg .navbar-collapse {
-    justify-content: space-between;
-}
-
-
 
 .navbar-toggler {
     background-color: white !important;
@@ -55,11 +48,25 @@
 
 .navbar-social {
     display: flex;
+    align-items: center;
+
 }
+
 
 .logoGithub {
     background-color: white;
     border-radius: 50%;
+}
+
+.navbar-language {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+
+.navbar-language .language_logo {
+    height: 4rem;
 }
 
 .navbar-language button {
@@ -71,6 +78,8 @@
 
 .navbar-collapse {
     align-items: self-start;
+    flex-basis: 0% !important;
+    justify-content: space-between;
 }
 
 .navbar-contact button {
@@ -100,6 +109,8 @@
     .navigation {
         align-items: baseline;
         margin-bottom: 3rem;
+        display: flex;
+        align-items: center;
     }
 
     .navbar-collapse {
@@ -111,6 +122,7 @@
 
     .options {
         padding-top: 0.5rem;
+        flex-direction: column;
     }
 }
 
@@ -138,7 +150,6 @@
     .navbar-collapse {
         display: flex;
         flex-direction: column;
-        padding-right: 2.5rem;
         margin-bottom: 1.5rem;
         align-items: center !important;
 
@@ -152,5 +163,18 @@
     .navbar .options {
         align-items: self-start;
     }
+
+    .navbar a {
+
+        margin-right: 0.5rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .navbar a {
+
+        margin-right: 0.2rem;
+    }
+
 
 }

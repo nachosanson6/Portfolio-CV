@@ -18,6 +18,10 @@
     width: 50%;
 }
 
+.filter .projectFilter input[type="text"]::placeholder {
+    color: black;
+}
+
 .filter .checkboxesContainer {
     display: flex;
     justify-content: center;

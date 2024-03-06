@@ -13,16 +13,34 @@
 }
 
 .skillsCard {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12rem;
+    padding: 1rem;
     background-color: rgb(222, 221, 226);
     border-radius: 30px;
+    justify-content: flex-end;
 
 
 }
 
+.skillImageFrame {
+    height: auto;
+    display: flex;
+}
+
 .skillsImages {
-    height: 100px;
+    height: auto;
+    width: 7rem;
     padding-top: 30px;
+}
+
+.skills .skills_name {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 158%;
 }
 
 
@@ -64,9 +82,7 @@
 /*Movil */
 @media (max-width: 480px) {
     .skillsCards {
-
         grid-template-columns: repeat(2, 1fr);
-
     }
 
     .options {

@@ -2,8 +2,11 @@ import React, { useState } from "react";
 import "./Filter.css";
 import skillsData from "./../../jsons/skills.json";
 import { FaFilter } from "react-icons/fa";
+import { useContext } from 'react'
+import { LanguageContext } from '../../contexts/language.context'
 
 const Filter = ({ onSkillToggle, onTextFilterChange }) => {
+    const { language } = useContext(LanguageContext)
     const [showCheckboxes, setShowCheckboxes] = useState(false);
     const [projectNameFilter, setProjectNameFilter] = useState("");
     const isMobileDevice = window.innerWidth <= 768;
@@ -25,12 +28,21 @@ const Filter = ({ onSkillToggle, onTextFilterChange }) => {
     return (
         <div className="filter">
             <div className="projectFilter">
-                <input
-                    type="text"
-                    placeholder={isMobileDevice ? "Buscar por nombre" : "Buscar por nombre del proyecto"}
-                    value={projectNameFilter}
-                    onChange={handleProjectNameChange}
-                />
+                {language === "spanish" ?
+                    <input
+                        type="text"
+                        placeholder={isMobileDevice ? "Buscar por nombre" : "Buscar por nombre del proyecto"}
+                        value={projectNameFilter}
+                        onChange={handleProjectNameChange}
+                    />
+                    :
+                    <input
+                        type="text"
+                        placeholder={isMobileDevice ? "Search by name" : "Search by project name"}
+                        value={projectNameFilter}
+                        onChange={handleProjectNameChange}
+                    />
+                }
                 <button className="filterButton" onClick={toggleCheckboxes}>
                     <FaFilter className="filterIcon" />
                 </button>

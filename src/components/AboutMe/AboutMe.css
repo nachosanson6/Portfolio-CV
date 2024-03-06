@@ -12,7 +12,9 @@
     -webkit-background-clip: text;
     color: transparent !important;
     font-weight: bold;
-    width: 9rem;
+    width: 100%;
+    font-size: 3rem;
+    padding-bottom: 1rem;
 
 }
 
@@ -32,4 +34,9 @@
         background-color: rgba(0, 0, 0, 0.5);
         border-radius: 2%;
     }
+
+    .aboutMe .presentation {
+        font-size: 2rem;
+    }
+
 }

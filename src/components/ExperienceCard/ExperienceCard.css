@@ -9,6 +9,20 @@
     transition: opacity 2s ease, transform 2s ease;
 }
 
+.experienceCard h2 {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.experienceCard h3 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 158%;
+}
+
 .experienceCard.visible {
     opacity: 1;
 }
@@ -38,5 +52,25 @@
 
     to {
         transform: translateX(0);
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {}
+
+/* Movil */
+@media (max-width: 480px) {
+    .experienceCard h2 {
+        font-size: 1.3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 158%;
+    }
+
+    .experienceCard h3 {
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 158%;
     }
 }
