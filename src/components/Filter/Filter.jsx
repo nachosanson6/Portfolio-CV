@@ -45,7 +45,7 @@ const Filter = ({ onSkillToggle, onTextFilterChange }) => {
                     />
                 }
                 <button className="filterButton" onClick={toggleCheckboxes}>
-                    <IconContext.Provider value={{ size: "2rem", className: "global-class-name" }}>
+                    <IconContext.Provider value={{ size: "1.5rem", className: "global-class-name" }}>
                         <FaFilter className="filterIcon" />
                     </IconContext.Provider>
                 </button>
