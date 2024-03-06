@@ -93,6 +93,17 @@
     cursor: pointer;
 }
 
+.navbar-contact button:hover {
+    background: linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: black;
+    font-weight: bold;
+    box-shadow: none;
+    cursor: pointer;
+}
+
 .nav-link.active,
 .navbar .nav-link.active:focus,
 .navbar .nav-link:hover,
