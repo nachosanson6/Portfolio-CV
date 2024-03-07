@@ -32,7 +32,7 @@
             "EXPRESS",
             "BOOTSTRAP",
             "GITHUB",
-            "MONGO",
+            "MONGODB",
             "POSTMAN"
         ],
         "github_link": "https://github.com/nachosanson6/board-master",
@@ -55,7 +55,7 @@
             "EXPRESS",
             "BOOTSTRAP",
             "GITHUB",
-            "MONGO",
+            "MONGODB",
             "POSTMAN"
         ],
         "github_link": "https://github.com/nachosanson6/JamLink-client",
@@ -64,8 +64,8 @@
     {
         "id": "P4",
         "title": "HappyCode",
-        "description": "Este proyecto lo realicé con varios compañeros del bootcamp una vez había terminado. Es una landind page ",
-        "description_en": "This project was done with several classmates from the bootcamp after it had finished. It's a landing page.",
+        "description": "Este proyecto lo realicé con varios compañeros del bootcamp una vez terminamos. Es una landind page en la que mostramos los servicios que ofrecemos, las personas que conforman el equipo y un formulario de contacto qu dirige directamente el mensaje del usuario a una cuenta de correo electrónico. ",
+        "description_en": "I completed this project with several colleagues from the bootcamp once we finished. It's a landing page that showcases the services we offer, the team members, and a contact form that directs the user's message directly to an email account.",
         "desktop_image": "HP_MacBook.png",
         "tablet_image": "HP_iPad.png",
         "movile_image": "HP_Phone.png",
@@ -83,8 +83,8 @@
     {
         "id": "P5",
         "title": "Eloy Arts",
-        "description": "Descripción del proyecto 2",
-        "description_en": "Project description",
+        "description": "Bajo los diseños de Elena Frontiñan desarrolle esta web para mostrar todas las obras de Eloy. Una seccion privada permite al artista subir cada obra que se almacena en una base de datos: En la búsqueda de las obras se separan en tres secciones diferentes y además puedes buscarlas por nombre el cual está creado en relacion por los materiales de los que está creada la obra. El usuario también tiene la opción de ponerse en contacto con el artista mediante un formulario el cual envía un correo electrónico directametne al artista. Una web que se distingue por su elegante simplicidad, donde el enfoque principal está en resaltar las obras de arte. Nos esforzamos por ofrecer una experiencia clara y limpia, asegurando que cada pieza de arte brille y se presente de manera destacada. ",
+        "description_en": "Under Elena Frontiñan's designs, develop this website to showcase all of Eloy's works. A private section allows the artist to upload each piece, which is stored in a database. The artworks are categorized into three different sections for easy browsing, and users can also search by name, which is created in relation to the materials used in the artwork. Users also have the option to contact the artist via a form that sends an email directly to the artist. This website distinguishes itself with elegant simplicity, focusing primarily on highlighting the artworks. We strive to offer a clear and clean experience, ensuring that each piece of art shines and is presented prominently.",
         "desktop_image": "EA_MacBook.png",
         "tablet_image": "EA_iPad.png",
         "movile_image": "EA_Phone.png",
@@ -97,7 +97,7 @@
             "EXPRESS",
             "BOOTSTRAP",
             "GITHUB",
-            "MONGO",
+            "MONGODB",
             "POSTMAN"
         ],
         "github_link": "https://github.com/nachosanson6/Eloy-app-client",

@@ -40,5 +40,23 @@
         "name": "Resiliencia",
         "name_en": "Resilience",
         "logoImage": "logoResilience.png"
+    },
+    {
+        "id": "SS8",
+        "name": "Gestion del tiempo",
+        "name_en": "Time management",
+        "logoImage": "logoTM.png"
+    },
+    {
+        "id": "SS9",
+        "name": "Autodidacta",
+        "name_en": "Self learning",
+        "logoImage": "logoSL.png"
+    },
+    {
+        "id": "SS10",
+        "name": "Paciencia",
+        "name_en": "Patience",
+        "logoImage": "logopatience.png"
     }
 ]

@@ -12,6 +12,7 @@
   "dependencies": {
     "@formspree/react": "^2.5.1",
     "@headlessui/react": "^1.7.18",
+    "@vercel/analytics": "^1.2.2",
     "bootstrap": "^5.3.3",
     "framer-motion": "^11.0.8",
     "react": "^18.2.0",
