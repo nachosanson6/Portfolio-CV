@@ -1,7 +1,7 @@
 [
     {
         "id": "P1",
-        "title": "Flor is lava",
+        "title": "Floor is lava",
         "description": "Este fue el primer proyecto completo que desarrollé durante el bootcamp. Junto a mi compañero Rodrigo, creamos este videojuego utilizando HTML, CSS, JavaScript y el DOM. Fue un esfuerzo en equipo en el que tuvimos que hacer lluvia de ideas, diseñar y construir el videojuego desde cero.",
         "description_en": "This was the first complete project I developed during the bootcamp. Together with my partner Rodrigo, we created this video game using HTML, CSS, JavaScript, and the DOM. It was a team effort in which we had to brainstorm, design, and build the video game from scratch.",
         "desktop_image": "FIL_MacBook.png",
