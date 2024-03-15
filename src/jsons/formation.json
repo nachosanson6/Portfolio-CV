@@ -1,28 +1,36 @@
 [
     {
         "titulation": "Maestro de educación Primaria",
+        "titulation_en": "Primary School Teacher",
         "titulation_type": "Licenciatura",
+        "titulation_type_en": "Bachelor's degree",
         "institution": "ESCUNI",
         "starting_date": "09/2009",
         "finishing_date": "06/2012"
     },
     {
         "titulation": "Full-stack Developer",
+        "titulation_en": "Full-stack Developer",
         "titulation_type": "Bootcamp",
+        "titulation_type_en": "Bootcamp",
         "institution": "Ironhack",
         "starting_date": "07/2023",
         "finishing_date": "09/2023"
     },
     {
         "titulation": "DevOps",
+        "titulation_en": "DevOps",
         "titulation_type": "Bootcamp",
+        "titulation_type_en": "Bootcamp",
         "institution": "Ironhack",
         "starting_date": "10/2023",
         "finishing_date": "12/2023"
     },
     {
         "titulation": "AZ-900",
+        "titulation_en": "AZ-900",
         "titulation_type": "Cerfificado",
+        "titulation_type_en": "Certificate",
         "institution": "Microsoft",
         "starting_date": "10/2023",
         "finishing_date": "12/2023"

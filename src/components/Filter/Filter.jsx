@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Filter.css";
 import skillsData from "./../../jsons/skills.json";
 import { FaFilter } from "react-icons/fa";
+import { IconContext } from "react-icons";
 import { useContext } from 'react'
 import { LanguageContext } from '../../contexts/language.context'
 
@@ -44,7 +45,9 @@ const Filter = ({ onSkillToggle, onTextFilterChange }) => {
                     />
                 }
                 <button className="filterButton" onClick={toggleCheckboxes}>
-                    <FaFilter className="filterIcon" />
+                    <IconContext.Provider value={{ size: "1.5rem", className: "global-class-name" }}>
+                        <FaFilter className="filterIcon" />
+                    </IconContext.Provider>
                 </button>
             </div>
             <div className={`checkboxesContainer ${showCheckboxes ? "show" : ""}`}>

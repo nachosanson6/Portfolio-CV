@@ -1,8 +1,9 @@
 [
     {
         "id": "P1",
-        "title": "Flor is lava",
+        "title": "Floor is lava",
         "description": "Este fue el primer proyecto completo que desarrollé durante el bootcamp. Junto a mi compañero Rodrigo, creamos este videojuego utilizando HTML, CSS, JavaScript y el DOM. Fue un esfuerzo en equipo en el que tuvimos que hacer lluvia de ideas, diseñar y construir el videojuego desde cero.",
+        "description_en": "This was the first complete project I developed during the bootcamp. Together with my partner Rodrigo, we created this video game using HTML, CSS, JavaScript, and the DOM. It was a team effort in which we had to brainstorm, design, and build the video game from scratch.",
         "desktop_image": "FIL_MacBook.png",
         "tablet_image": "FIL_iPad.png",
         "movile_image": "FIL_Phone.png",
@@ -19,6 +20,7 @@
         "id": "P2",
         "title": "BoardMaster",
         "description": "Proyecto que desarrollé con mi compañera Isabella durante el segundo módulo del bootcamp. Es una aplicación para crear eventos para jugar juegos de mesa. Además, al crear un evento, puedes ver la ubicación del evento y todos los eventos previamente creados en un mapa a través de la API de Google Maps. También tienes acceso a una galería de todos los juegos de mesa que obtenemos de una API externa.",
+        "description_en": "Project I developed with my colleague Isabella during the second module of the bootcamp. It is an application for creating events to play board games. Additionally, when creating an event, you can view the event's location and all previously created events on a map from the Google Maps API.You also have access to a gallery of all the board games we fetch from an external API",
         "desktop_image": "BM_MacBook.png",
         "tablet_image": "",
         "movile_image": "",
@@ -30,7 +32,7 @@
             "EXPRESS",
             "BOOTSTRAP",
             "GITHUB",
-            "MONGO",
+            "MONGODB",
             "POSTMAN"
         ],
         "github_link": "https://github.com/nachosanson6/board-master",
@@ -40,6 +42,7 @@
         "id": "P3",
         "title": "JamLink",
         "description": "Último proyecto desarrollado durante el bootcamp. JamLink es una red social para músicos que desean conocer a otros músicos para tocar juntos y organizar jam sessions. En ella, puedes encontrar una comunidad de usuarios donde puedes conocer a nuevas personas, ver los instrumentos que tocan y agregarlos como amigos. También puedes crear eventos a los que otros usuarios pueden unirse, ver todos los eventos en un mapa de Google y dejar comentarios. Desarrollé la aplicación con mi compañero Fernando y como próximos pasos, nos gustaría implementar una sección donde los usuarios puedan agregar videos de las jam sessions e, incluso, un chat para facilitar la comunicación entre los usuarios de la aplicación.",
+        "description_en": "Last project developed during the bootcamp. JamLink is a social network for musicians who want to meet other musicians for jamming and organizing jam sessions. In it, you can find a community of users where you can meet new people, see what instruments they play, and add them as friends.You can also create events that other users can join, view all the events on a Google Map, and leave comments. I developed the application with my colleague Fernando and as next steps, we would like to implement a section where users can add videos of the jam sessions and even a chat to facilitate communication among the application's users.",
         "desktop_image": "JL_MacBook.png",
         "tablet_image": "JL_iPad.png",
         "movile_image": "JL_Phone.png",
@@ -52,7 +55,7 @@
             "EXPRESS",
             "BOOTSTRAP",
             "GITHUB",
-            "MONGO",
+            "MONGODB",
             "POSTMAN"
         ],
         "github_link": "https://github.com/nachosanson6/JamLink-client",
@@ -61,7 +64,8 @@
     {
         "id": "P4",
         "title": "HappyCode",
-        "description": "Este proyecto lo realicé con varios compañeros del bootcamp una vez había terminado. Es una landind page ",
+        "description": "Este proyecto lo realicé con varios compañeros del bootcamp una vez terminamos. Es una landind page en la que mostramos los servicios que ofrecemos, las personas que conforman el equipo y un formulario de contacto qu dirige directamente el mensaje del usuario a una cuenta de correo electrónico. ",
+        "description_en": "I completed this project with several colleagues from the bootcamp once we finished. It's a landing page that showcases the services we offer, the team members, and a contact form that directs the user's message directly to an email account.",
         "desktop_image": "HP_MacBook.png",
         "tablet_image": "HP_iPad.png",
         "movile_image": "HP_Phone.png",
@@ -79,7 +83,8 @@
     {
         "id": "P5",
         "title": "Eloy Arts",
-        "description": "Descripción del proyecto 2",
+        "description": "Bajo los diseños de Elena Frontiñan desarrolle esta web para mostrar todas las obras de Eloy. Una seccion privada permite al artista subir cada obra que se almacena en una base de datos: En la búsqueda de las obras se separan en tres secciones diferentes y además puedes buscarlas por nombre el cual está creado en relacion por los materiales de los que está creada la obra. El usuario también tiene la opción de ponerse en contacto con el artista mediante un formulario el cual envía un correo electrónico directametne al artista. Una web que se distingue por su elegante simplicidad, donde el enfoque principal está en resaltar las obras de arte. Nos esforzamos por ofrecer una experiencia clara y limpia, asegurando que cada pieza de arte brille y se presente de manera destacada. ",
+        "description_en": "Under Elena Frontiñan's designs, develop this website to showcase all of Eloy's works. A private section allows the artist to upload each piece, which is stored in a database. The artworks are categorized into three different sections for easy browsing, and users can also search by name, which is created in relation to the materials used in the artwork. Users also have the option to contact the artist via a form that sends an email directly to the artist. This website distinguishes itself with elegant simplicity, focusing primarily on highlighting the artworks. We strive to offer a clear and clean experience, ensuring that each piece of art shines and is presented prominently.",
         "desktop_image": "EA_MacBook.png",
         "tablet_image": "EA_iPad.png",
         "movile_image": "EA_Phone.png",
@@ -92,7 +97,7 @@
             "EXPRESS",
             "BOOTSTRAP",
             "GITHUB",
-            "MONGO",
+            "MONGODB",
             "POSTMAN"
         ],
         "github_link": "https://github.com/nachosanson6/Eloy-app-client",

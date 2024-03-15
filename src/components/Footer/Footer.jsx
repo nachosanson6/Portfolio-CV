@@ -9,10 +9,7 @@ const Footer = () => {
                     <div className="info-item logo">
                         <img src={"/assets/images/logo.png"} alt="Logo" />
                     </div>
-                    <div className="info-item">
-                        <img className="phone" src={"/assets/images/phone.svg"} alt="Phone" />
-                        <p className="contact-info">675239429</p>
-                    </div>
+
                     <div className="info-item envelope">
                         <img className="envelope" src={"/assets/images/envelope-alt.svg"} alt="Envelope" />
                         <p className="contact-info">nachosanson6@gmail.com</p>
@@ -21,6 +18,7 @@ const Footer = () => {
             </div>
             <div className="rights">
                 <p>© 2024 Erretres. All Rights Reserved</p>
+                <p> Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
             </div>
         </footer>
     )
