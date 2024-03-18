@@ -5,6 +5,7 @@ import { MdOutlineWebAsset } from "react-icons/md";
 import { FaSquareGithub } from "react-icons/fa6";
 import { useContext } from 'react'
 import { LanguageContext } from '../../contexts/language.context'
+import MovileCarousel from "../MovileCarousel/MovileCarousel";
 
 const ProjectCard = ({ project, index, visible }) => {
 
@@ -51,17 +52,23 @@ const ProjectCard = ({ project, index, visible }) => {
                     <a href={project.github_link} target="_blank" rel="noopener noreferrer">
                         <button>GitHub <FaSquareGithub /></button>
                     </a>
-                    <a href={project.web_link} target="_blank" rel="noopener noreferrer">
-                        <button>Web <MdOutlineWebAsset /></button>
-                    </a>
+                    {project.web_link !== "" &&
+                        <a href={project.web_link} target="_blank" rel="noopener noreferrer">
+                            <button>Web <MdOutlineWebAsset /></button>
+                        </a>
+                    }
                 </div>
             </div>
             <div className="carousel_frame">
-                {project.movile_image ? (
+                {project.tablet_image ? (
                     <Carousel mobile_photo={project.movile_image} tablet_photo={project.tablet_image} desktop_photo={project.desktop_image} />
                 ) : (
-                    <img className="desktop_image" src={`assets/images/project_images/${project.desktop_image}`} alt="Proyecto" />
-                )}            </div>
+                    project.movile_image2 ? (
+                        <MovileCarousel mobile_photo={project.movile_image} mobile_photo2={project.movile_image2} mobile_photo3={project.movile_image3} />
+                    ) : (
+                        <img className="desktop_image" src={`assets/images/project_images/${project.desktop_image}`} alt="Proyecto" />
+                    ))}
+            </div>
         </div>
     );
 };
