@@ -94,5 +94,11 @@
         "name": "SASS",
         "logoImage": "logoSASS.png",
         "filter_name": "SASS"
+    },
+    {
+        "id": "s17",
+        "name": "Python",
+        "logoImage": "logoPYTHON.png",
+        "filter_name": "PYTHON"
     }
 ]
