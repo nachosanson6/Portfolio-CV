@@ -1,7 +1,7 @@
 [
     {
         "id": "P1",
-        "title": "Flor is lava",
+        "title": "Floor is lava",
         "description": "Este fue el primer proyecto completo que desarrollé durante el bootcamp. Junto a mi compañero Rodrigo, creamos este videojuego utilizando HTML, CSS, JavaScript y el DOM. Fue un esfuerzo en equipo en el que tuvimos que hacer lluvia de ideas, diseñar y construir el videojuego desde cero.",
         "description_en": "This was the first complete project I developed during the bootcamp. Together with my partner Rodrigo, we created this video game using HTML, CSS, JavaScript, and the DOM. It was a team effort in which we had to brainstorm, design, and build the video game from scratch.",
         "desktop_image": "FIL_MacBook.png",
@@ -102,5 +102,24 @@
         ],
         "github_link": "https://github.com/nachosanson6/Eloy-app-client",
         "web_link": "https://www.eloyarts.com/"
+    },
+    {
+        "id": "P6",
+        "title": "Citas veterinarias",
+        "description": "Primer proyecto del curso de REACT NATIVE. Es una primera toma de contacto con esta tecnología en la cual aprendemos los conceptso básicos de REACT NATIVE, es un app para reservar citas para el veterinario y esta formada solo con el front.  ",
+        "description_en": "First project of the REACT NATIVE course. It's an initial approach to this technology where we learn the basic concepts of REACT NATIVE. It's an app for booking appointments with the vet and it's made up of only the front end.",
+        "desktop_image": "",
+        "tablet_image": "",
+        "movile_image": "citasHomePage.png",
+        "movile_image2": "citasNew.png",
+        "movile_image3": "citasInformation.png",
+        "skills": [
+            "HTML",
+            "JS",
+            "REACTNATIVE",
+            "GITHUB"
+        ],
+        "github_link": "https://github.com/nachosanson6/citas-pacientes-react-native",
+        "web_link": ""
     }
 ]

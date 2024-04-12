@@ -85,18 +85,30 @@
     },
     {
         "id": "S15",
+        "name": "Ansible",
+        "logoImage": "logoANSIBLE.png",
+        "filter_name": "ANSIBLE"
+    },
+    {
+        "id": "S16",
         "name": "Github",
         "logoImage": "logoGITHUB.png",
         "filter_name": "GITHUB"
     },
     {
-        "id": "s16",
+        "id": "s17",
         "name": "SASS",
         "logoImage": "logoSASS.png",
         "filter_name": "SASS"
     },
     {
-        "id": "s17",
+        "id": "s18",
+        "name": "React Native",
+        "logoImage": "logoREACTNATIVE.png",
+        "filter_name": "REACTNATIVE"
+    },
+    {
+        "id": "s19",
         "name": "Python",
         "logoImage": "logoPYTHON.png",
         "filter_name": "PYTHON"

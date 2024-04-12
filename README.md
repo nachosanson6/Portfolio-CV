@@ -8,7 +8,6 @@
 2. [Description](#description)
 3. [Setup](#setup)
     - [Scripts](#scripts)
-    - [Environment variables](#environment-variables)
 4. [File Structure](#file-structure)
 5. [Used Technologies](#used-technologies)
 6. [Client routes](#client-routes)
